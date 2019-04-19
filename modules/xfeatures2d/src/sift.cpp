@@ -122,7 +122,7 @@ namespace xfeatures2d
 class SIFT_Impl : public SIFT
 {
 public:
-    explicit SIFT_Impl( int nfeatures = 0, int nOctaveLayers = 3,
+    explicit SIFT_Impl( int nfeatures = 0, int nOctaveLayers = 5,
                           double contrastThreshold = 0.04, double edgeThreshold = 10,
                           double sigma = 1.6);
 
